@@ -1,0 +1,19 @@
+@import "css modules/nord.css";
+
+html,
+body {
+    padding: 0;
+}
+
+body {
+    background-color: var(--nord0);
+    color: var(--nord8);
+}
+
+.menu-header {
+    position: absolute;
+    margin: 0px;
+    background-color: red;
+    width: 100%;
+    height: 500px;
+}
