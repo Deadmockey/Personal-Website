@@ -1,0 +1,49 @@
+@import "css modules/nord.css";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--nord0);
+}
+
+
+
+.left-container {
+    background-color: red;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+
+.middle-container {
+    background-color: blue;
+    position: absolute;
+    height: 100%;
+    width: 25%;
+}
+
+.right-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+}
+
+.top-right-container {
+    background-color: yellow;
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+.bottom-right-container {
+    background-color: green;
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
