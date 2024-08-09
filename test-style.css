@@ -1,13 +1,8 @@
 @import "css modules/nord.css";
 
-html,
-body {
+* {
     margin: 0;
     padding: 0;
-}
-
-body {
-    background-color: var(--nord0);
 }
 
 .parent-container {
@@ -18,17 +13,19 @@ body {
 }
 
 .left-container {
-    background-color: red;
-    flex: 5;
+    background-color: var(--nord0);
+    padding: 5px;
+    flex: 4;
     height: auto;
     width: auto;
 }
 
 .middle-container {
-    background-color: blue;
-    flex: 2;
-    height: auto;
-    width: auto;
+    background-image: url(img/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 3;
 }
 
 .right-container {
@@ -40,14 +37,16 @@ body {
 }
 
 .top-right-container {
-    background-color: yellow;
+    background-color: var(--nord0);
+    padding: 5px;
     flex: 1;
     height: auto;
     width: auto;
 }
 
 .bottom-right-container {
-    background-color: green;
+    background-color: var(--nord3);
+    padding: 5px;
     flex: 1;
     height: auto;
     width: auto;
