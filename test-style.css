@@ -14,7 +14,7 @@
 
 .left-container {
     background-color: var(--nord0);
-    padding: 5px;
+    display: flex;
     flex: 4;
     height: auto;
     width: auto;
@@ -50,4 +50,29 @@
     flex: 1;
     height: auto;
     width: auto;
+}
+
+.main-info-container {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 4rem 0rem 4rem 6rem;
+    height: auto;
+    width: auto;
+}
+
+.main-menu-container {
+    background-color: blue;
+    flex: 1;
+}
+
+.relavent-info-container {
+    background-color: yellow;
+    flex: 5;
+}
+
+.logo-container {
+    background-color: green;
+    flex: 2;
 }
