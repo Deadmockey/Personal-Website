@@ -10,40 +10,45 @@ body {
     background-color: var(--nord0);
 }
 
-
+.parent-container {
+    position: absolute;
+    display: flex;
+    min-height: 100%;
+    min-width: 100%;
+}
 
 .left-container {
     background-color: red;
-    position: absolute;
-    height: 100%;
-    width: 50%;
+    flex: 5;
+    height: auto;
+    width: auto;
 }
 
 .middle-container {
     background-color: blue;
-    position: absolute;
-    height: 100%;
-    width: 25%;
+    flex: 2;
+    height: auto;
+    width: auto;
 }
 
 .right-container {
-    position: absolute;
     display: flex;
+    flex: 1;
     flex-direction: column;
-    height: 100%;
+    height: auto;
     width: auto;
 }
 
 .top-right-container {
     background-color: yellow;
-    position: absolute;
-    height: 100%;
+    flex: 1;
+    height: auto;
     width: auto;
 }
 
 .bottom-right-container {
     background-color: green;
-    position: absolute;
-    height: 100%;
+    flex: 1;
+    height: auto;
     width: auto;
 }
